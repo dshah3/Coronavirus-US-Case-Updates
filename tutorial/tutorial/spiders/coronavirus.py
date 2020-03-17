@@ -9,7 +9,7 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.log import configure_logging
 from scrapy.utils.project import get_project_settings
 
-webhook_url = "https://hooks.slack.com/services/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"
+webhook_url = #use your own slack webhook
 
 class CoronaVirusSpider(scrapy.Spider):
     name = "coronavirus"
